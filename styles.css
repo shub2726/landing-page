@@ -120,3 +120,27 @@ body {
     font-size: 18px;
     color: rgba(102, 102, 102, 0.973);
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    max-width:825px;
+    align-self: center;
+}
+
+.quote-author {
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 825px;
+    text-align: right;
+}
