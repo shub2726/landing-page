@@ -49,6 +49,7 @@ button {
     background-color: rgba(174, 176, 182, 0.432);
     text-align: center;
     padding-top: 105px;
+    border-radius: 10px;
 }
 
 body {
@@ -89,7 +90,7 @@ body {
 .random-info {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 30px;
     align-items: center;
     gap: 30px;
 }
