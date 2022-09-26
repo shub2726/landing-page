@@ -79,3 +79,43 @@ body {
     width: 400px;
     gap: 1em;
 }
+
+.random-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-container {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    border: 3px solid rgb(40, 124, 235);
+    border-radius: 10px;
+    width: 125px;
+    height: 125px;
+}
+
+.box {
+    width: 125px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-subtext {
+    text-align: center;
+    font-size: 18px;
+    color: rgba(102, 102, 102, 0.973);
+}
