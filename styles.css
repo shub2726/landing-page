@@ -1,0 +1,37 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-left-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-left-subtext, .header-links a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+.header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header-right {
+    color: #F9FAF8;
+}
