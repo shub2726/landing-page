@@ -169,3 +169,15 @@ body {
 .signup-subtext {
     color:white;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits {
+    color: white;
+}
