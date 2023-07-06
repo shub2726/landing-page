@@ -91,7 +91,7 @@ ul {
 
 .second {
     padding: 40px 350px 80px 350px;
-    gap: 25px;
+    gap: 35px;
     display: flex;
     align-items: center;
     flex-direction: column;
