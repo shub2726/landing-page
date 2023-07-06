@@ -153,3 +153,31 @@ ul {
     align-self: flex-end;
     margin-right: 25px;
 }
+
+.fourth {
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border: 2px solid black;
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+    gap: 75px;
+    margin: 100px 250px;
+}
+
+.fourth .left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fourth .left .mini-header {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+.fourth .left .nudge {
+    font-size: 14px;
+    color: white;
+}
