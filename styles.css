@@ -3,6 +3,11 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .first {
     gap: 75px;
     display: flex;
@@ -37,6 +42,7 @@ ul {
 }
 
 .intro {
+    flex-wrap: wrap;
     gap: 50px;
     display: flex;
 }
@@ -72,6 +78,7 @@ ul {
 
 .right {
     min-width: 280px;
+    min-height: 250px;
     flex: 1 1 0;
     display: flex;
     justify-content: center;
@@ -80,4 +87,44 @@ ul {
     font-size: 18px;
     color: white;
     background-color: rgba(182, 182, 182, 0.46)
+}
+
+.second {
+    padding: 40px 350px 80px 350px;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second .sub-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.second .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.second .card {
+    gap: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second .box {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.second .text {
+    text-align: center;
+    font-size: 18px;
+    color: #656565;
 }
