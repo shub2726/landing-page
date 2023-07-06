@@ -4,20 +4,23 @@ body {
 }
 
 .first {
+    gap: 75px;
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
-    padding: 12px 175px;
+    padding: 20px 200px;
+    padding-bottom: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    margin-left: 50px;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
 }
 
 ul {
@@ -28,7 +31,46 @@ ul {
     gap: 20px;
 }
 
-.first .navbar li {
+.first .navbar li, .intro .subtext {
     font-size: 18px;
-    color: #d4d6d9;
+    color: #c5c6c8;
+}
+
+.intro {
+    gap: 25px;
+    display: flex;
+}
+
+.intro .left {
+    flex: 1 1 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intro .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.intro .sign-up {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 8px 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.right {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(182, 182, 182, 0.46)
 }
