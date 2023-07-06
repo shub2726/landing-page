@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 20px 200px;
+    padding: 20px 225px;
     padding-bottom: 100px;
 }
 
@@ -37,7 +37,7 @@ ul {
 }
 
 .intro {
-    gap: 25px;
+    gap: 50px;
     display: flex;
 }
 
@@ -46,7 +46,7 @@ ul {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
 }
 
 .intro .title {
@@ -55,7 +55,12 @@ ul {
     color: #F9FAF8;
 }
 
+.intro .subtext {
+    max-width: 450px;
+}
+
 .intro .sign-up {
+    margin-top: 8px;
     background-color: #3882F6;
     border: none;
     border-radius: 6px;
@@ -70,6 +75,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
     font-size: 16px;
     color: white;
     background-color: rgba(182, 182, 182, 0.46)
